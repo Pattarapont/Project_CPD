@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
 /* Global Styles */
 
 html,
@@ -13,7 +14,7 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .text-vertical-center {
@@ -29,39 +30,42 @@ body {
     font-weight: 700;
 }
 
+
 /* Custom Button Styles */
 
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .btn-light {
     border-radius: 0;
     color: #333;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
 
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
     color: #333;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
+
 
 /* Custom Horizontal Rule */
 
 hr.small {
     max-width: 100px;
 }
+
 
 /* Side Menu */
 
@@ -104,7 +108,7 @@ hr.small {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .sidebar-nav li a:active,
@@ -148,6 +152,7 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
+
 /* Header */
 
 .header {
@@ -162,11 +167,13 @@ hr.small {
     -o-background-size: cover;
 }
 
+
 /* Vision */
 
 .vision {
     padding: 50px 0;
 }
+
 
 /* About */
 
@@ -174,21 +181,21 @@ hr.small {
     padding: 50px 0;
 }
 
+
 /*
 .about-item {
     margin-bottom: 30px;
 }
 */
 
-
 .award {
     padding: 50px 0;
 }
 
-
 .award-item {
     margin-bottom: 30px;
 }
+
 
 /* Callout */
 
@@ -197,12 +204,28 @@ hr.small {
     width: 100%;
     height: 500px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/1.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+
+/* Callout2 */
+
+.callout2 {
+    display: table;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    background: url(../img/2.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 /* activities */
 
@@ -212,6 +235,8 @@ hr.small {
 
 .activities-item {
     margin-bottom: 30px;
+    height: 333px;
+    width: 500px;
 }
 
 .img-activities {
@@ -221,6 +246,7 @@ hr.small {
 .img-activities:hover {
     opacity: 0.8;
 }
+
 
 /* Call to Action */
 
@@ -232,10 +258,12 @@ hr.small {
     margin: 10px;
 }
 
+
 /* Map */
 
 .map {
     height: 500px;
+    padding: 50px 0;
 }
 
 @media(max-width:768px) {
@@ -248,6 +276,7 @@ hr.small {
     pointer-events: none;
 }
 
+
 /* Footer */
 
 footer {
@@ -255,13 +284,13 @@ footer {
 }
 
 #to-top {
-  display: none;
-  position: fixed;
-  bottom: 5px;
-  right: 5px;
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
 }
 
-.homevis{
+//.homevis {
     display: table;
     position: relative;
     width: 100%;
