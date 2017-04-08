@@ -17,6 +17,10 @@ body {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+A:link {
+    text-decoration: none;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -172,6 +176,8 @@ hr.small {
 
 .vision {
     padding: 50px 0;
+    text-align: center;
+    background-color: #EFF4E4;
 }
 
 
@@ -179,6 +185,8 @@ hr.small {
 
 .about {
     padding: 50px 0;
+    text-align: center;
+    background-color: #D98B3A;
 }
 
 
@@ -190,6 +198,8 @@ hr.small {
 
 .award {
     padding: 50px 0;
+    text-align: center;
+    background: #D98B3A;
 }
 
 .award-item {
@@ -226,19 +236,31 @@ hr.small {
     -o-background-size: cover;
 }
 
+/* Callout3 */
+
+.callout3 {
+    display: table;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    background: url(../img/3.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 /* activities */
 
 .activities {
     padding: 50px 0;
+    background-color: rgba(236, 240, 241,1.0);
 }
 
-.activities-item {
+/*.activities-item {
     margin-bottom: 30px;
-    height: 333px;
-    width: 500px;
 }
-
+*/
 .img-activities {
     margin: 0 auto;
 }
@@ -274,6 +296,7 @@ hr.small {
 
 .map iframe {
     pointer-events: none;
+    margin-bottom: 100px 0;
 }
 
 
@@ -281,6 +304,10 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+footer.copy {
+    margin-top: 200px;
 }
 
 #to-top {
@@ -291,13 +318,14 @@ footer {
 }
 
 //.homevis {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(../img/header-bg.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+display: table;
+position: relative;
+width: 100%;
+height: 100%;
+background: url(../img/header-bg.jpg) no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+
 }

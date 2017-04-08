@@ -1,0 +1,234 @@
+@font-face{
+    font-family: THSarabun;
+    src: url(../fonts/THSarabun.ttf);
+}
+body{
+    font-family: THSarabun;
+    font-size : 20px; 
+}
+.p20,.h20{
+    font-family: THSarabun;
+    font-size : 20px; 
+}
+.p25,.h25{
+    font-family: THSarabun;
+    font-size : 25px; 
+}
+.p30,.h30{
+    font-family: THSarabun;
+    font-size : 30px; 
+}
+.p35,.h35{
+    font-family: THSarabun;
+    font-size : 35px; 
+}
+.p40,.h40{
+    font-family: THSarabun;
+    font-size : 40px; 
+}
+.p45,.h45{
+    font-family: THSarabun;
+    font-size : 45px; 
+}
+.p50,.h50{
+    font-family: THSarabun;
+    font-size : 50px; 
+}
+.p70,.h70{
+    font-family: THSarabun;
+    font-size : 70px; 
+}
+.p90,.h90{
+    font-family: THSarabun;
+    font-size : 90px; 
+}
+
+
+
+.portfolio-modal .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-bottom: 30px;
+    margin-top: 0
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3
+}
+
+.portfolio-modal .close-modal .lr {
+    height: 75px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #222;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 1051
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    height: 75px;
+    width: 1px;
+    background-color: #222;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    z-index: 1052
+}
+
+.portfolio-modal .modal-backdrop {
+    opacity: 0;
+    display: none
+}
+
+/* Animation Timers
+---------------------------------*/
+.delay-02s { 
+    animation-delay: 0.2s; 
+    -webkit-animation-delay: 0.2s; 
+}
+.delay-03s { 
+    animation-delay: 0.3s; 
+    -webkit-animation-delay: 0.3s; 
+}
+.delay-04s { 
+    animation-delay: 0.4s; 
+    -webkit-animation-delay: 0.4s; 
+}
+
+.delay-05s { 
+    animation-delay: 0.5s; 
+    -webkit-animation-delay: 0.5s; 
+}
+.delay-06s { 
+    animation-delay: 0.6s; 
+    -webkit-animation-delay: 0.6s; 
+}
+
+.delay-07s { 
+    animation-delay: 0.7s; 
+    -webkit-animation-delay: 0.7s; 
+}
+.delay-08s { 
+    animation-delay: 0.8s; 
+    -webkit-animation-delay: 0.8s; 
+}
+
+.delay-09s { 
+    animation-delay: 0.9s; 
+    -webkit-animation-delay: 0.9s; 
+}
+.delay-1s { 
+    animation-delay: 1s; 
+    -webkit-animation-delay: 1s; 
+}
+.delay-12s { 
+    animation-delay: 1.2s; 
+    -webkit-animation-delay: 1.2s; 
+}
+
+#activities .activities-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#activities .activities-item .activities-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#activities .activities-item .activities-link .activities-hover {
+  background: rgba(254, 209, 54, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#activities .activities-item .activities-link .activities-hover:hover {
+  opacity: 1;
+}
+#activities .activities-item .activities-link .activities-hover .activities-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#activities .activities-item .activities-link .activities-hover .activities-hover-content i {
+  margin-top: -12px;
+}
+#activities .activities-item .activities-link .activities-hover .activities-hover-content h3,
+#activities .activities-item .activities-link .activities-hover .activities-hover-content h4 {
+  margin: 0;
+}
+#activities .activities-item .activities-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+#activities .activities-item .activities-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+#activities .activities-item .activities-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+#activities * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #activities .activities-item {
+    margin: 0 0 30px;
+  }
+}

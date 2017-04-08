@@ -17,7 +17,7 @@ window.requestAnimFrame = (function() {
     //VARIABLES
     //************
     var _Canvas;
-    let _frontImageSrc = 'http://www.jir4yu.me/wp-content/uploads/2014/06/Screen-Shot-2557-06-19-at-22.58.45.png';
+    let _frontImageSrc = '../img/header-bg.jpg';
     let _backImageSrc = 'http://www.everythingisee.in.th/wp-content/uploads/2017/02/2017-02-14_121708.jpg';
     let _frontImage;
     let _backImage;

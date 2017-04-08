@@ -2,25 +2,23 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <title>ชมรมเพื่อนชาวดอย</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/stylish-portfolio.css" rel="stylesheet">
     <link href="./css/fadeInUp.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="./img/logo.png">
-
 </head>
 
 <body>
-
-                <!-- Navigation -->
+    <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -32,7 +30,7 @@
                 <a href="#top" onclick=$("#menu-close").click();>หน้าหลัก</a>
             </li>
             <li>
-                <a href="#vision" onclick=$("#menu-close").click();>วิศัยทัศน์</a>
+                <a href="#vision" onclick=$("#menu-close").click();>วิสัยทัศน์</a>
             </li>
             <li>
                 <a href="#about" onclick=$("#menu-close").click();>เกี่ยวกับเรา</a>
@@ -41,116 +39,137 @@
                 <a href="#activities" onclick=$("#menu-close").click();>กิจกรรมของเรา</a>
             </li>
             <li>
+                <a href="#award" onclick=$("#menu-close").click();>รางวัลที่ได้รับ</a>
+            </li>
+            <li>
                 <a href="#contact" onclick=$("#menu-close").click();>ติดต่อเรา</a>
             </li>
         </ul>
     </nav>
-
-
     <!-- Header -->
-    <header id="top" class="header" >
-
+    <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>ชมรมเพื่อนชาวดอย</h1>
-            <h3>มหาวิทยาลัยนเรศวร</h3>
+            <h3 class="h40">มหาวิทยาลัยนเรศวร</h3>
             <br>
-            <a href="#vision" class="btn btn-dark btn-lg">นี่คือพวกเรา</a>
+            <a href="#vision" class="btn btn-dark btn-lg p30">มารู้จักพวกเรากัน</a>
         </div>
     </header>
     <!-- vision -->
-    <section id="vision" class="vision" >
+    <section id="vision" class="vision">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>The Vision</h2>
+                <div class="col-lg-12 text-center wow fadeInup delay-02s">
+                    <h2 class="h90">The Vision</h2>
                     <hr class="small">
-                    <p>กลุ่มชมรมเพื่อนชาวดอยได้จัดตั้งขึ้นเพื่อสร้างผลประโยชน์อันดีให้กับสังคม โดยมิได้คำนึงถึงผลประโยชน์ส่วนตนเลยแม้แต่น้อย ดังวิสัยทัศน์ที่ว่า</p>
-                    <h3>“เพื่อเรา เพื่อสังคม ชมรมเพื่อนชาวดอย”</h3>
+                    <p class="p35">กลุ่มชมรมเพื่อนชาวดอยได้จัดตั้งขึ้นเพื่อสร้างผลประโยชน์อันดีให้กับสังคม โดยมิได้คำนึงถึงผลประโยชน์ส่วนตนเลยแม้แต่น้อย ดังวิสัยทัศน์ที่ว่า</p>
+                    <h3 class="p50">“เพื่อเรา เพื่อสังคม ชมรมเพื่อนชาวดอย”</h3>
                 </div>
             </div>
             <!-- /.row -->
-            <a href="#" class="btn btn-dark" data-toggle="modal" data-target="#modelvision" >Read More...</a>
+            <a href="#" class="btn btn-dark" data-toggle="modal" data-target="#modelvision" ><p class="p20">อ่านเพิ่ม...</p></a>
         </div>
         <!-- /.container -->
     </section>
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h1>######</h1>
         </div>
     </aside>
-
     <!-- About -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="about" class="about bg-primary">
+    <section id="about" class="about">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>About</h2>
+                    <h2 class="h90">About</h2>
                     <hr class="small">
                     <div class="row">
-                        <p>ชมรมเพื่อนชาวดอยเป็นกลุ่มชมรมที่จัดตั้งขึ้นเพื่อดำเนินกิจกรรมต่างๆอันเป็นผลประโยชน์ต่อสังคมเป็นที่ตั้ง </p>
-                        <p>การดำเนินงานของชมรมได้ขับเคลื่อนโดยนิสิตมหาวิทยาลัยนเรศวร ซึ่งเป็นผู้ที่มีความมุ่งมั่นต่อการปฏิบัติตนให้เป็นประโยชน์ต่อสังคมส่วนรวม </p>
+                        <p class="p35">ชมรมเพื่อนชาวดอยเป็นกลุ่มชมรมที่จัดตั้งขึ้นเพื่อดำเนินกิจกรรมต่างๆอันเป็นผลประโยชน์ต่อสังคมเป็นที่ตั้ง </p>
+                        <p class="p35">การดำเนินงานของชมรมได้ขับเคลื่อนโดยนิสิตมหาวิทยาลัยนเรศวร </p>
+                        <p class="p35">ซึ่งเป็นผู้ที่มีความมุ่งมั่นต่อการปฏิบัติตนให้เป็นประโยชน์ต่อสังคมส่วนรวม </p>
                     </div>
                     <!-- /.row (nested) -->
+                    <a href="#modelabout" class="btn btn-dark " data-toggle="modal" target="_blank"><p class="p20">อ่านเพิ่ม...</p></a>
                 </div>
-                <a href="#" class="btn btn-dark " data-toggle="modal" data-target="#modelabout" >Read More...</a>
                 <!-- /.col-lg-10 -->
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
-
     <!-- Callout2 -->
     <aside class="callout2">
         <div class="text-vertical-center">
-            <h1>######</h1>
         </div>
     </aside>
-
     <!-- Activities -->
     <section id="activities" class="activities">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Activities</h2>
+                    <h2 class="h90">Activities</h2>
                     <hr class="small">
-                    <p>สำหรับภาพรวมของกิจกรรมของชมรมนั้นได้มีโครงการหลักทั้งหมด 4 โครงการ ในระยะเวลา 1 ปีการศึกษา</p>
-                    <a href="#" class="btn btn-dark" data-toggle="modal" data-target="#modelactivities" >Read More...</a>
+                    <p class="p35">สำหรับภาพรวมของกิจกรรมของชมรมนั้นได้มีโครงการหลักทั้งหมด 4 โครงการ </p>
+                    <p class="p35">ในระยะเวลา 1 ปีการศึกษา</p>
+                    <a href="#" class="btn btn-dark" data-toggle="modal" data-target="#modelactivities"><p class="p20">อ่านเพิ่ม...</p></a>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="activities-item">
-                                <a href="#">
-                                    <img class="img-activities img-responsive" src="./img/camp1-home.jpg">
-                                </a>
+                        <div class="col-md-6 activities-item">
+                            <a href="#camp1" class="activities-link" data-toggle="modal">
+                                <div class="activities-hover">
+                                    <div class="activities-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="./img/camp1-home.jpg" class="img-responsive" alt="">
+                            </a>
+                            <div class="activities-caption">
+                                <h4 class="h25">ค่ายแสงเทียนสู่ดอย</h4>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="activities-item">
-                                <a href="#">
-                                    <img class="img-activities img-responsive" src="./img/camp2-home.jpg">
-                                </a>
+                        <div class="col-md-6 activities-item">
+                            <a href="#camp2" class="activities-link" data-toggle="modal">
+                                <div class="activities-hover">
+                                    <div class="activities-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="./img/camp2-home.jpg" class="img-responsive" alt="">
+                            </a>
+                            <div class="activities-caption">
+                                <h4 class="h25">ค่ายแนะนำแนะแนวสู่น้องชาวดอย</h4>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="activities-item">
-                                <a href="#">
-                                    <img class="img-activities img-responsive" src="./img/camp3-home.jpg">
-                                </a>
+                        <br>
+                        <div class="col-md-6 activities-item">
+                            <a href="#camp3" class="activities-link" data-toggle="modal">
+                                <div class="activities-hover">
+                                    <div class="activities-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="./img/camp3-home.jpg" class="img-responsive" alt="">
+                            </a>
+                            <div class="activities-caption">
+                                <h4 class="h25">ค่ายดอกหญ้าสู่ดอย</h4>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="activities-item">
-                                <a href="#">
-                                    <img class="img-activities img-responsive" src="./img/camp4-home.jpg">
-                                </a>
+                        <div class="col-md-6 activities-item">
+                            <a href="#camp4" class="activities-link" data-toggle="modal">
+                                <div class="activities-hover">
+                                    <div class="activities-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="./img/camp4-home.jpg" class="img-responsive" alt="">
+                            </a>
+                            <div class="activities-caption">
+                                <h4 class="h25">ค่ายปันน้ำใจสู่น้องชาวดอย</h4>
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -161,64 +180,54 @@
 
     <!-- award -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="award" class="award bg-primary">
+    <section id="award" class="award">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Award</h2>
+                    <h2 class="h90">Award</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="award-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
+                                <span>
+                                <img src="./img/diploma-1.png" alt="">
+                                </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong class="p35">ปีการศึกษา 2553</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p class="p25">ชมรมเพื่อนชาวดอย มหาวิทยาลัยนเรศวร</p>
+                                <p class="p25">เป็นองค์กรคุณภาพดีเด่น </p>
+                                <p class="p25">ประจำปีการศึกษา 2553</p>
+                                <a href="#" class="btn btn-dark " data-toggle="modal" data-target=".diploma53"><p class="p20">รางวัล</p></a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
+                                <span>
+                                <img src="./img/diploma-2.png" alt="">
+                                </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong class="p35">ปีการศึกษา 2557</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p class="p25">ชมรมเพื่อนชาวดอย มหาวิทยาลัยนเรศวร</p>
+                                <p class="p25">ผ่านเกณฑ์การประเมินองค์กรคุณภาพ </p>
+                                <p class="p25">ประจำปีการศึกษา 2557</p>
                             </div>
+                            <a href="#" class="btn btn-dark " data-toggle="modal" data-target=".diploma57"><p class="p20">รางวัล</p></a>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
+                                <span>
+                                <img src="./img/diploma-3.png" alt="">
+                                </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong class="p35">ปีการศึกษา 2558</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p class="p25">ชมรมเพื่อนชาวดอย มหาวิทยาลัยนเรศวร</p>
+                                <p class="p25">ผ่านเกณฑ์การประเมินองค์กรคุณภาพ </p>
+                                <p class="p25">ประจำปีการศึกษา 2558</p>
                             </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
+                            <a href="#" class="btn btn-dark " data-toggle="modal" data-target=".diploma58"><p class="p20">รางวัล</p></a>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
@@ -228,29 +237,77 @@
             <!-- /.row -->
         </div>
         <!-- /.container -->
-    </section>
+        <!-- Modal diploma53 -->
+        <div class="modal fade diploma53" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">องค์กรคุณภาพดีเด่น
 
-    <!-- Call to Action 
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                            ประจำปีการศึกษา 2553</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./img/diploma-01.jpg" alt="" width="50%">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- Modal diploma57 -->
+        <div class="modal fade diploma57" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">องค์กรคุณภาพ
+
+                            ประจำปีการศึกษา 2557</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./img/diploma-02.jpg" alt="" width="80%">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal diploma58 -->
+        <div class="modal fade diploma58" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">องค์กรคุณภาพ
+                            ประจำปีการศึกษา 2558</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./img/diploma-03.jpg" alt="" width="80%">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Callout3 -->
+    <aside class="callout3">
+        <div class="text-vertical-center">
+        </div>
     </aside>
--->
     <!-- Map -->
     <section id="contact" class="map">
-    <div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact</h2>
+                    <h2 class="h90">Contact</h2>
                     <hr class="small">
-                    <p>หากบุคคลใดหรือภาคส่วนใดมีความประสงค์จะเป็นส่วนหนึ่งในการพัฒนากิจกรรมต่างๆของชมรม ตลอดจนการสอบถามข้อมูลต่างๆสามารถติดต่อได้โดยผ่านช่องทางดังต่อไปนี้ </p>
+                    <p class="p30">หากบุคคลใดหรือภาคส่วนใดมีความประสงค์จะเป็นส่วนหนึ่งในการพัฒนากิจกรรมต่างๆของชมรม </p>
+                    <p class="p30">ตลอดจนการสอบถามข้อมูลต่างๆสามารถติดต่อได้โดยผ่านช่องทางดังต่อไปนี้ </p>
                 </div>
             </div>
             <!-- /.row -->
@@ -261,21 +318,15 @@
             <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
         </small>
     </section>
-
     <!-- Footer -->
-    <footer>
-        <div class="container">
+    <footer class="copy">
+        <div class="container ">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>ชมรมเพื่อนชาวดอย</strong>
+                    <h4><strong class="p30">ชมรมเพื่อนชาวดอย</strong>
                     </h4>
                     <p>99 หมู่ 9 ตำบลท่าโพธิ์ อำเภอเมือง
                         <br>จังหวัดพิษณุโลก รหัสไปรษณีย์ 65000</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
                     <br>
                     <ul class="list-inline">
                         <li>
@@ -289,69 +340,206 @@
         </div>
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
-<!-- Modal About-->
-<div class="modal fade bs-example-modal-lg" id="modelabout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">ชมรมเพื่อนชาวดอย</h4>
-      </div>
-      <div class="modal-body">
-        <p>ชมรมเพื่อนชาวดอยเป็นกลุ่มชมรมที่จัดตั้งขึ้นเพื่อดำเนินกิจกรรมต่างๆอันเป็นผลประโยชน์ต่อสังคมเป็นที่ตั้ง โดยการดำเนินงานของชมรมได้ขับเคลื่อนโดยนิสิตมหาวิทยาลัยนเรศวร ซึ่งเป็นผู้ที่มีความมุ่งมั่นต่อการปฏิบัติตนให้เป็นประโยชน์ต่อสังคมส่วนรวม ทั้งนี้กลุ่มชมรมเพื่อนชาวดอยยังเป็นสื่อกลางในการติดต่อและให้ความช่วยเหลือแก่ชนกลุ่มน้อยที่อยู่ห่างไกลจากความเจริญก้าวหน้าของสังคมในปัจจุบัน ไม่ว่าจะเป็นตัวกลางในการนำความช่วยเหลือของสังคมเข้าไปสู่ชุมชนนั้นๆ หรือแม้แต่การสร้างกิจกรรมต่างๆที่เล็งเห็นถึงผลประโยชน์ที่ยืนยาวในภายภาคหน้า โดยได้มุ่งเน้นไปที่เยาวชนอันเป็นรากฐานสำคัญของประเทศชาติ เนื่องจากสมาชิกเห็นพ้องต้องกันว่าประเทศชาติจะพัฒนาไปได้ล้วนแล้วแต่มาจากประชาชนของประเทศทั้งนั้น และการเลือกกลุ่มเป้าหมายเป็นเยาวชนที่กำลังศึกษาอยู่ในระดับโรงเรียนนั้นถือเป็นสิ่งที่สำคัญต่อการพัฒนาสังคมไทย เพราะในอนาคตเยาวชนเหล่านั้นจะต้องเติบโตไปเป็นผู้ใหญ่ในวันข้างหน้า และจะเป็นส่วนหนึ่งที่สามารถขับเคลื่อนประเทศชาติให้ทัดเทียมกับนานามอารยะประเทศต่อไปได้ เพราะฉะนั้นการดำเนินกิจกรรมโดยส่วนมากจะมุ่งเน้นไปที่การกระตุ้นให้เด็กที่เข้าร่วมกิจกรรมเห็นความสำคัญของการศึกษาในขั้นที่สูงขึ้น และยังเป็นการสร้างความรู้ความเข้าใจที่ดีต่อการดำเนินชีวิตในปัจจุบันให้กับเยาวชน ซึ่งเป็นผลพวงมาจากการที่ความเจริญก้าวหน้าในด้านต่างๆยังไม่สามารถเข้าไปถึงกลุ่มชุมชนนั้นได้มากเท่าที่ควร ดังนั้นการดำเนินกิจกรรมของกลุ่มชมรมจึงสามารถทำให้เยาวชนและคนในชุมชนได้ตระหนักถึงความสำคัญของการศึกษา และการดำเนินชีวิตให้ทันต่อความเปลี่ยนแปลงของสังคมภายนอกได้เป็นอย่างมาก อีกทั้งสมาชิกของชมรมยังได้เดินตามรอยพระบาทของพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช พระบาทสมเด็จพระเจ้าอยู่หัวรัชกาลที่ 9 ซึ่งพระองค์ทรงตระหนักถึงคนไทยทุกหมู่เหล่าไม่ว่าพสกนิกรไทยจะอยู่แห่งหนใดก็ตาม เห็นได้จากพระราชกรณียกิจอันน้อยใหญ่ของพระองค์ที่ผ่านมา จึงทำให้สมาชิกของชมรมมีความตั้งมั่นที่จะดำเนินตามรอยพระบาทของพระองค์อย่างเที่ยงตรง และไม่ได้คำนึงถึงผลประโยชน์ของตนเองเลยแม้แต่เล็กน้อย นอกจากนี้ยังทำให้สมาชิกของชมรมสามารถดำเนินการทำงานต่างๆไปได้อย่างเป็นระบบ ตามคุณลักษณะอันพึงประสงค์ของบัณฑิตที่พึงมี</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal Vinion -->
+    <div class="portfolio-modal modal fade" id="modelvision" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <img src="./img/logo.png" alt="" width="30%">
+                            <h2>วิสัยทัศน์</h2>
+                            <hr class="small">
+                            <p class="p25">กลุ่มชมรมเพื่อนชาวดอยได้จัดตั้งขึ้นเพื่อสร้างผลประโยชน์อันดีให้กับสังคม โดยมิได้คำนึงถึงผลประโยชน์ส่วนตนเลยแม้แต่น้อย ดังวิสัยทัศน์ที่ว่า “เพื่อเรา เพื่อสังคม ชมรมเพื่อนชาวดอย” </p>
+                            <p class="p25">คำว่า “เพื่อเรา” เป็นตัวแทนของคนในสังคมที่มุ่งหวังจะสร้างสิ่งที่เป็นผลประโยชน์ให้กับสังคม ซึ่งเริ่มจากการให้ความสำคัญกับผู้ที่ร่วมกันดำเนินงานให้กับสังคมเป็นลำดับแรก เพราะถ้าหากไม่เริ่มจากการกลุ่มคนที่มีความตั้งมั่นที่จะสร้างผลประโยชน์ให้กับสังคมแล้วจะไม่สามารถดำเนินงานให้ก้าวไปข้างหน้าได้ และท้ายที่สุดแล้วจะไม่สามารถทำให้ผู้ที่เราจะเข้าไปให้ความช่วยเหลือในด้านต่างๆได้รับผลประโยชน์นั้นได้ ไม่ว่าจะเป็นในลักษณะของรูปธรรมหรือแม้แต่นามธรรมก็ตาม</p>
+                            <p class="p25">“เพื่อสังคม” สำหรับคำนี้มาจากการที่กลุ่มคนที่ต้องการจะสร้างคุณประโยชน์ให้กับสังคมไทยนั้นมีความตั้งมั่นในทิศทางเดียวกัน ซึ่งการทำงานในรูปแบบของการจัดกิจกรรมโดยส่วนมากล้วนแล้วแต่เป็นการสร้างขึ้นมาเพื่อให้สังคมได้รับผลประโยชน์ในด้านต่างๆให้มากที่สุด ไม่เพียงแต่เยาวชนเท่านั้น หากแต่รวมถึงประชนชนในท้องถิ่นนั้นๆด้วยเช่นเดียวกัน </p>
+                            <p class="p25">และคำว่า “ชมรมเพื่อนชาวดอย” ไม่ได้เป็นการบ่งบอกว่ามีแค่เพียงสมาชิกของชมรมเท่านั้นที่มีความตั้งใจที่จะเข้าไปช่วยเหลือบุคคลในท้องถิ่นนั้นๆ โดยเฉพาะท้องที่ที่ความเจริญก้าวหน้ายังเข้าถึงไม่มาก รวมทั้งเป็นชุมชนที่ห่างไกลจากสิ่งอำนวยความสะดวกต่างๆ ซึ่งสมาชิกชมรมเห็นพ้องต้องกันว่าจะใช้ชื่อของชมรมเป็นตัวแทนของทุกๆการสนับสนุนอันเป็นส่วนหนึ่งที่สามารถทำให้กิจกรรมของชมรมผ่านไปได้ด้วยดี </p>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i>ปิดหน้านี้</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-<!-- Modal Vision -->
-<div class="modal fade bs-example-modal-lg" id="modelvision" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">ชมรมเพื่อนชาวดอย</h4>
-      </div>
-      <div class="modal-body">
-        <p>กลุ่มชมรมเพื่อนชาวดอยได้จัดตั้งขึ้นเพื่อสร้างผลประโยชน์อันดีให้กับสังคม โดยมิได้คำนึงถึงผลประโยชน์ส่วนตนเลยแม้แต่น้อย ดังวิสัยทัศน์ที่ว่า “เพื่อเรา เพื่อสังคม ชมรมเพื่อนชาวดอย” 
-    คำว่า “เพื่อเรา” เป็นตัวแทนของคนในสังคมที่มุ่งหวังจะสร้างสิ่งที่เป็นผลประโยชน์ให้กับสังคม ซึ่งเริ่มจากการให้ความสำคัญกับผู้ที่ร่วมกันดำเนินงานให้กับสังคมเป็นลำดับแรก เพราะถ้าหากไม่เริ่มจากการกลุ่มคนที่มีความตั้งมั่นที่จะสร้างผลประโยชน์ให้กับสังคมแล้วจะไม่สามารถดำเนินงานให้ก้าวไปข้างหน้าได้ และท้ายที่สุดแล้วจะไม่สามารถทำให้ผู้ที่เราจะเข้าไปให้ความช่วยเหลือในด้านต่างๆได้รับผลประโยชน์นั้นได้ ไม่ว่าจะเป็นในลักษณะของรูปธรรมหรือแม้แต่นามธรรมก็ตาม
-    “เพื่อสังคม” สำหรับคำนี้มาจากการที่กลุ่มคนที่ต้องการจะสร้างคุณประโยชน์ให้กับสังคมไทยนั้นมีความตั้งมั่นในทิศทางเดียวกัน ซึ่งการทำงานในรูปแบบของการจัดกิจกรรมโดยส่วนมากล้วนแล้วแต่เป็นการสร้างขึ้นมาเพื่อให้สังคมได้รับผลประโยชน์ในด้านต่างๆให้มากที่สุด ไม่เพียงแต่เยาวชนเท่านั้น หากแต่รวมถึงประชนชนในท้องถิ่นนั้นๆด้วยเช่นเดียวกัน 
-    และคำว่า “ชมรมเพื่อนชาวดอย” ไม่ได้เป็นการบ่งบอกว่ามีแค่เพียงสมาชิกของชมรมเท่านั้นที่มีความตั้งใจที่จะเข้าไปช่วยเหลือบุคคลในท้องถิ่นนั้นๆ โดยเฉพาะท้องที่ที่ความเจริญก้าวหน้ายังเข้าถึงไม่มาก รวมทั้งเป็นชุมชนที่ห่างไกลจากสิ่งอำนวยความสะดวกต่างๆ ซึ่งสมาชิกชมรมเห็นพ้องต้องกันว่าจะใช้ชื่อของชมรมเป็นตัวแทนของทุกๆการสนับสนุนอันเป็นส่วนหนึ่งที่สามารถทำให้กิจกรรมของชมรมผ่านไปได้ด้วยดี
-</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal About -->
+    <div class="portfolio-modal modal fade" id="modelabout" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <img src="./img/logo.png" alt="" width="30%">
+                            <h2>แนะนำชมรมเพื่อนชาวดอย</h2>
+                            <hr class="small">
+                            <p class="p25">ชมรมเพื่อนชาวดอยเป็นกลุ่มชมรมที่จัดตั้งขึ้นเพื่อดำเนินกิจกรรมต่างๆอันเป็นผลประโยชน์ต่อสังคมเป็นที่ตั้ง โดยการดำเนินงานของชมรมได้ขับเคลื่อนโดยนิสิตมหาวิทยาลัยนเรศวร ซึ่งเป็นผู้ที่มีความมุ่งมั่นต่อการปฏิบัติตนให้เป็นประโยชน์ต่อสังคมส่วนรวม </p>
+                            <p class="p25">ทั้งนี้กลุ่มชมรมเพื่อนชาวดอยยังเป็นสื่อกลางในการติดต่อและให้ความช่วยเหลือแก่ชนกลุ่มน้อยที่อยู่ห่างไกลจากความเจริญก้าวหน้าของสังคมในปัจจุบัน ไม่ว่าจะเป็นตัวกลางในการนำความช่วยเหลือของสังคมเข้าไปสู่ชุมชนนั้นๆ หรือแม้แต่การสร้างกิจกรรมต่างๆที่เล็งเห็นถึงผลประโยชน์ที่ยืนยาวในภายภาคหน้า โดยได้มุ่งเน้นไปที่เยาวชนอันเป็นรากฐานสำคัญของประเทศชาติ </p>
+                            <p class="p25">เนื่องจากสมาชิกเห็นพ้องต้องกันว่าประเทศชาติจะพัฒนาไปได้ล้วนแล้วแต่มาจากประชาชนของประเทศทั้งนั้น และการเลือกกลุ่มเป้าหมายเป็นเยาวชนที่กำลังศึกษาอยู่ในระดับโรงเรียนนั้นถือเป็นสิ่งที่สำคัญต่อการพัฒนาสังคมไทย เพราะในอนาคตเยาวชนเหล่านั้นจะต้องเติบโตไปเป็นผู้ใหญ่ในวันข้างหน้า และจะเป็นส่วนหนึ่งที่สามารถขับเคลื่อนประเทศชาติให้ทัดเทียมกับนานามอารยะประเทศต่อไปได้ เพราะฉะนั้นการดำเนินกิจกรรมโดยส่วนมากจะมุ่งเน้นไปที่การกระตุ้นให้เด็กที่เข้าร่วมกิจกรรมเห็นความสำคัญของการศึกษาในขั้นที่สูงขึ้น และยังเป็นการสร้างความรู้ความเข้าใจที่ดีต่อการดำเนินชีวิตในปัจจุบันให้กับเยาวชน ซึ่งเป็นผลพวงมาจากการที่ความเจริญก้าวหน้าในด้านต่างๆยังไม่สามารถเข้าไปถึงกลุ่มชุมชนนั้นได้มากเท่าที่ควร </p>
+                            <p class="p25">ดังนั้นการดำเนินกิจกรรมของกลุ่มชมรมจึงสามารถทำให้เยาวชนและคนในชุมชนได้ตระหนักถึงความสำคัญของการศึกษา และการดำเนินชีวิตให้ทันต่อความเปลี่ยนแปลงของสังคมภายนอกได้เป็นอย่างมาก อีกทั้งสมาชิกของชมรมยังได้เดินตามรอยพระบาทของพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช พระบาทสมเด็จพระเจ้าอยู่หัวรัชกาลที่ 9 ซึ่งพระองค์ทรงตระหนักถึงคนไทยทุกหมู่เหล่าไม่ว่าพสกนิกรไทยจะอยู่แห่งหนใดก็ตาม เห็นได้จากพระราชกรณียกิจอันน้อยใหญ่ของพระองค์ที่ผ่านมา จึงทำให้สมาชิกของชมรมมีความตั้งมั่นที่จะดำเนินตามรอยพระบาทของพระองค์อย่างเที่ยงตรง และไม่ได้คำนึงถึงผลประโยชน์ของตนเองเลยแม้แต่เล็กน้อย นอกจากนี้ยังทำให้สมาชิกของชมรมสามารถดำเนินการทำงานต่างๆไปได้อย่างเป็นระบบ ตามคุณลักษณะอันพึงประสงค์ของบัณฑิตที่พึงมี</p>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> ปิดหน้านี้</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-<!-- Modal activities -->
-<div class="modal fade bs-example-modal-lg" id="modelactivities" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">ชมรมเพื่อนชาวดอย</h4>
-      </div>
-      <div class="modal-body">
-        <p>สำหรับภาพรวมของกิจกรรมของชมรมนั้นได้มีโครงการหลักทั้งหมด 4 โครงการ ในระยะเวลา 1 ปีการศึกษา ซึ่งก็คือ โครงการแสดงเทียนสู่ดอย โครงการแนะนำและแนะแนวการศึกษาสู่น้องชาวดอย โครงการแสดงเทียนสู่ดอย และโครงการปันน้ำใจสู่น้องชาวดอย ซึ่งโครงการทั้งหมดจะจัดขึ้นในทุกๆปีตามระยะเวลาที่เหมาะสม นอกจากนี้ยังมีโครงการที่เกี่ยวเนื่องกับการพัฒนาชุมชนโดยรอบมหาวิทยาลัย อีกทั้งสมาชิกชมรมยังได้ร่วมใจกันจัดกิจกรรมต่างๆที่สามารถระดมทุนเพื่อเป็นส่วนหนึ่งในการช่วยเหลือเยาวชนที่ได้เข้าร่วมกิจกรรมในแต่ละครั้ง ไม่ว่าจะเป็นการขายสินค้าตามงานต่างๆ ซึ่งรายได้ทั้งหมดก็จะนำไปพัฒนากิจกรรมเพื่อท้องถิ่นที่ห่างไกลทั้งหมด รวมทั้งการเปิดรับบริจาคสิ่งของต่างๆจากบุคคลภายนอกเพื่อนำมาคัดเลือกให้เหมาะสมกับบุคคลในชุมชนให้ได้อย่างทั่วถึง โดยการจัดกิจกรรมเหล่านี้ได้รับการสานต่อมาอย่างต่อเนื่อง อีกทั้งยังได้รับการสนับสนุนจากทุกภาคส่วนจึงสามารถทำให้ชมรมยังสามารถสร้างคุณประโยชน์ให้บุคคลอื่นๆในสังคมได้ตลอดระยะเวลาที่ผ่านมา
-</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal Activities -->
+    <div class="portfolio-modal modal fade" id="modelactivities" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <img src="./img/logo.png" alt="" width="30%">
+                            <h2>กิจกรรมที่ผ่านมา</h2>
+                            <hr class="small">
+                            <p class="p25">สำหรับภาพรวมของกิจกรรมของชมรมนั้นได้มีโครงการหลักทั้งหมด 4 โครงการ ในระยะเวลา 1 ปีการศึกษา ซึ่งก็คือ โครงการแสดงเทียนสู่ดอย โครงการแนะนำและแนะแนวการศึกษาสู่น้องชาวดอย โครงการแสดงเทียนสู่ดอย และโครงการปันน้ำใจสู่น้องชาวดอย </p>
+                            <p class="p25">ซึ่งโครงการทั้งหมดจะจัดขึ้นในทุกๆปีตามระยะเวลาที่เหมาะสม นอกจากนี้ยังมีโครงการที่เกี่ยวเนื่องกับการพัฒนาชุมชนโดยรอบมหาวิทยาลัย อีกทั้งสมาชิกชมรมยังได้ร่วมใจกันจัดกิจกรรมต่างๆที่สามารถระดมทุนเพื่อเป็นส่วนหนึ่งในการช่วยเหลือเยาวชนที่ได้เข้าร่วมกิจกรรมในแต่ละครั้ง ไม่ว่าจะเป็นการขายสินค้าตามงานต่างๆ ซึ่งรายได้ทั้งหมดก็จะนำไปพัฒนากิจกรรมเพื่อท้องถิ่นที่ห่างไกลทั้งหมด รวมทั้งการเปิดรับบริจาคสิ่งของต่างๆจากบุคคลภายนอกเพื่อนำมาคัดเลือกให้เหมาะสมกับบุคคลในชุมชนให้ได้อย่างทั่วถึง โดยการจัดกิจกรรมเหล่านี้ได้รับการสานต่อมาอย่างต่อเนื่อง อีกทั้งยังได้รับการสนับสนุนจากทุกภาคส่วนจึงสามารถทำให้ชมรมยังสามารถสร้างคุณประโยชน์ให้บุคคลอื่นๆในสังคมได้ตลอดระยะเวลาที่ผ่านมา</p>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> ปิดหน้าต่างนี้</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
+    <!-- Modal Camp1 -->
+    <div class="portfolio-modal modal fade" id="camp1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <img src="./img/logo.png" alt="" width="30%">
+                            <h2>ค่ายแสงเทียนสู่ดอย</h2>
+                            <hr class="small">
+                            <img src="./img/camp1/1.jpg" alt="" width="100%">
+                            <img src="./img/camp1/2.jpg" alt="" width="100%">
+                            <img src="./img/camp1/3.jpg" alt="" width="100%">
+                            <img src="./img/camp1/4.jpg" alt="" width="100%">
+                            <img src="./img/camp1/5.jpg" alt="" width="100%">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> ปิดหน้าต่างนี้</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Camp2 -->
+    <div class="portfolio-modal modal fade" id="camp2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <img src="./img/logo.png" alt="" width="30%">
+                            <h2>ค่ายแนะนำแนะแนวสู่น้องชาวดอย</h2>
+                            <hr class="small">
+                            <img src="./img/camp2/1.jpg" alt="" width="100%">
+                            <img src="./img/camp2/2.jpg" alt="" width="100%">
+                            <img src="./img/camp2/3.jpg" alt="" width="100%">
+                            <img src="./img/camp2/4.jpg" alt="" width="100%">
+                            <img src="./img/camp2/5.jpg" alt="" width="100%">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> ปิดหน้าต่างนี้</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Camp3 -->
+    <div class="portfolio-modal modal fade" id="camp3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <img src="./img/logo.png" alt="" width="30%">
+                            <h2>ค่ายดอกหญ้าสู่ดอย</h2>
+                            <hr class="small">
+                            <img src="./img/camp3/1.jpg" alt="" width="100%">
+                            <img src="./img/camp3/2.jpg" alt="" width="100%">
+                            <img src="./img/camp3/3.jpg" alt="" width="100%">
+                            <img src="./img/camp3/4.jpg" alt="" width="100%">
+                            <img src="./img/camp3/5.jpg" alt="" width="100%">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> ปิดหน้าต่างนี้</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Camp4 -->
+    <div class="portfolio-modal modal fade" id="camp4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <img src="./img/logo.png" alt="" width="30%">
+                            <h2>ค่ายปันน้ำใจสู่น้องชาวดอย</h2>
+                            <hr class="small">
+                            <img src="./img/camp4/1.jpg" alt="" width="100%">
+                            <img src="./img/camp4/2.jpg" alt="" width="100%">
+                            <img src="./img/camp4/3.jpg" alt="" width="100%">
+                            <img src="./img/camp4/4.jpg" alt="" width="100%">
+                            <img src="./img/camp4/5.jpg" alt="" width="100%">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> ปิดหน้าต่างนี้</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
-    <script src="./js/header.js"></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.4/zepto.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
-
+    <!--
+    <script src="./js/zepto.min.js"></script>
+    <script src="./js/wow.js"></script>
+    <script src="./js/TweenMax.min.js"></script>
+    -->
 </body>
 
 </html>
